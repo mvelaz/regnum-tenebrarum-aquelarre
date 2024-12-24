@@ -13,9 +13,5 @@ function ScrollHeight() {
 
   // SVG feTurbulence can modify all others elements, for this reason "parchment" is in another <div> and in absolute position.
   // so for a better effect, absolute height is defined by his content.
-  let offsetHeight = container.offsetHeight;
-  if (offsetHeight > 1324){
-	  offsetHeight = 1324;
-  }
-  content.style.height = offsetHeight + 'px';
+  content.style.height = container.offsetHeight + 'px';
 }
