@@ -50,6 +50,12 @@
   "datePublished": "2024-01-01"
 }
 </script>
-
+<script>
+// Comprueba si la página ya fue recargada en esta sesión
+if (!sessionStorage.getItem('reloaded')) {
+    sessionStorage.setItem('reloaded', 'true');
+    window.location.reload();
+}
+</script>
 </body>
 </html>
