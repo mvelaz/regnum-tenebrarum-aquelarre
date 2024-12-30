@@ -74,7 +74,7 @@ main p {
   text-align: justify;
 }
 
-div p:not(:first-child,.inkSubTitle)::first-letter {
+div p:not(:first-child,.inkSubTitle,.sin-iluminar)::first-letter {
   float: left;
   font: 1.7em/1em Morris;
   /* a little relief for the first letter*/
