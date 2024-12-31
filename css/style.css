@@ -144,3 +144,27 @@ a {
 a:hover {
 	text-decoration: none;
 }
+
+ul {
+  list-style-type: none; /* Quita el estilo predeterminado */
+  padding-left: 0; /* Opcional: Alinea el contenido */
+}
+
+ul li {
+  position: relative; /* Necesario para posicionar el ::before */
+  padding-left: 50px; /* Espacio para la imagen */
+}
+
+ul li::before {
+  content: ""; /* Inserta un contenido vacío */
+  display: block;
+  background-image: url("../img/favicon-aquelarre.png");
+  background-size: 40px 40px; /* Especifica el tamaño */
+  background-repeat: no-repeat;
+  width: 40px; /* Ancho del ícono */
+  height: 40px; /* Alto del ícono */
+  position: absolute;
+  left: 0; /* Alineación izquierda */
+  top: 40%; /* Centrado vertical */
+  transform: translateY(-50%); /* Ajuste de centrado */
+}
