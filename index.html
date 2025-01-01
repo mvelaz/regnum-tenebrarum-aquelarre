@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-58MW7DBS');</script>
-	<!-- End Google Tag Manager -->
-	
+<head>	
   <meta charset="UTF-8">
   <title>El reino de las tinieblas - Aventura de rol para Aquelarre</title>
   <meta name="description" content="Aventura de rol para Aquelarre">
@@ -21,12 +13,6 @@
   <link rel="icon" href="./img/favicon-aquelarre.png" type="image/x-icon">
 </head>
 <body>
-	
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58MW7DBS"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-	
 <!-- partial:index.partial.html -->
 <main>
   <div id="parchment"></div>
@@ -72,6 +58,16 @@ if (!sessionStorage.getItem('reloaded')) {
     sessionStorage.setItem('reloaded', 'true');
     window.location.reload();
 }
+</script>
+	
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XTRZMY1KG3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XTRZMY1KG3');
 </script>
 </body>
 </html>
