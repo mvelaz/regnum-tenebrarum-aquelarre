@@ -153,6 +153,8 @@ ul {
 ul li {
   position: relative; /* Necesario para posicionar el ::before */
   padding-left: 50px; /* Espacio para la imagen */
+  line-height: 40px;
+  font-size: 1.15em;
 }
 
 ul li::before {
