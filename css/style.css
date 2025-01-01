@@ -107,7 +107,7 @@ div p:not(:first-child,.inkSubTitle,.sin-iluminar)::first-letter {
   font-family: Pirata One, sans-serif;
   text-align: center;
   color: black;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 #labarum {
