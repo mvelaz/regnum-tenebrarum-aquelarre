@@ -151,7 +151,6 @@ ul {
 }
 
 ul li {
-  font-size: 2.5em;
   position: relative; /* Necesario para posicionar el ::before */
   padding-left: 50px; /* Espacio para la imagen */
 }
