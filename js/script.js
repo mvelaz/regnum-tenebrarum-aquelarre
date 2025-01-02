@@ -15,3 +15,29 @@ function ScrollHeight() {
   // so for a better effect, absolute height is defined by his content.
   content.style.height = container.offsetHeight + 'px';
 }
+
+function addEventDescarga(id){
+document.addEventListener('DOMContentLoaded', function() {
+    // Seleccionar el botón por su ID
+    const downloadButton = document.getElementById(id);
+    
+    if (downloadButton) {
+        // Agregar un listener al clic del botón
+        downloadButton.addEventListener('click', function() {
+            // Enviar un evento a Google Analytics
+            gtag('event', 'click', { 
+                'event_category': 'Descarga', 
+                'event_label': id 
+            });
+
+            // Opcional: Imprimir en consola para verificar
+            console.log('Evento de clic registrado en el botón de descarga.');
+        });
+    } else {
+        console.warn('No se encontró un elemento con el ID "descarga_btn".');
+    }
+});
+}
+
+ addEventDescarga(id);
+ addEventDescarga(id);
