@@ -39,5 +39,5 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 }
 
- addEventDescarga(id);
- addEventDescarga(id);
+ addEventDescarga('descarga_aventura_btn');
+ addEventDescarga('descarga_anexos_btn');
