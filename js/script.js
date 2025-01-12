@@ -17,7 +17,7 @@ function ScrollHeight() {
 }
 
 function trackDownload(label) {
-    gtag('event', 'clic', { 
+    gtag('event', label, { 
       'event_category': 'Descarga', 
       'event_label': label 
     });
