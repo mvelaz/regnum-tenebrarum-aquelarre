@@ -170,3 +170,9 @@ ul li::before {
   top: 40%; /* Centrado vertical */
   transform: translateY(-50%); /* Ajuste de centrado */
 }
+.divider {
+    width: 80%; /* Ajusta el ancho según el tamaño de la pantalla */
+    max-width: 600px; /* Evita que se agrande demasiado en pantallas grandes */
+    display: block;
+    margin: 20px auto; /* Centrado horizontal */
+}
