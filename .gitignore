@@ -1,0 +1,33 @@
+/target/
+# Archivos y carpetas generadas por Eclipse
+.classpath
+.project
+.settings/
+
+# Archivos de compilación
+bin/
+target/
+*.class
+
+# Archivos de Maven
+.mvn/
+.m2/
+dependency-reduced-pom.xml
+
+# Archivos de logs
+*.log
+
+# Configuración del IDE
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de distribución
+*.jar
+*.war
+*.ear
